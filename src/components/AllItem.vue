@@ -1,0 +1,22 @@
+<template>
+  <div class="itemList">
+    <h2>全てのアイテム一覧</h2>
+    <ItemBox :items="items" v-for="item in items" :itemName="item.item_name" :itemPrice="item.item_price" :itemImg="item.item_img" />
+  </div>
+</template>
+
+<script>
+import ItemBox from './ItemBox.vue';
+
+export default {
+  components: {
+    ItemBox
+  },
+  props: {
+    items : Array
+  }
+}
+</script>
+
+<style lang='scss' scoped>
+</style>

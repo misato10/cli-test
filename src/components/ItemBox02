@@ -1,0 +1,26 @@
+<template>
+  <div class="box">
+    <a href="#">
+      <figure>
+        <img :src="require(`@/assets/${item.item_img}`)" alt="">
+      </figure>
+      <p class="name">製品名:{{ item.item_name }}</p>
+      <p class="price">料金:{{ item.item_price }}円</p>
+      <p>{{ item.id }}</p>
+      <p>{{ imageSrc }}</p>
+    </a>
+  </div>
+</template>
+
+<script>
+
+export default {
+  props: {
+    items : Array,
+    item: Array,
+  },
+}
+</script>
+
+<style lang='scss' scoped>
+</style>
