@@ -5,7 +5,7 @@
         <img :src="image_src" alt="">
       </figure>
       <p class="name">{{ itemName }}</p>
-      <p class="price">{{ itemPrice }}円</p>
+      <p class="price">￥{{ itemPrice }}</p>
     </a>
   </div>
 </template>
@@ -29,4 +29,23 @@ export default {
 </script>
 
 <style lang='scss' scoped>
+.box {
+  width: 22%;
+  margin: 0 1.5% 40px;
+  figure {
+    img {
+      width: 100%;
+    }
+  }
+  .name {
+    color: #666;
+    font-size:1.2rem;
+    margin-bottom: 5px;
+    letter-spacing: .05em;
+  }
+  .price {
+    font-size:1.6rem;
+    font-weight: bold;
+  }
+}
 </style>

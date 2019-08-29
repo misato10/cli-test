@@ -2,15 +2,18 @@
   <div class="contents">
     <p>TOPのコンテンツ</p>
     <AllItem :items="items" />
+    <NewItem :items="items" />
   </div>
 </template>
 
 <script>
 import AllItem from './AllItem.vue';
+import NewItem from './NewItem.vue';
 
 export default {
   components: {
-    AllItem
+    AllItem,
+    NewItem
   },
   props: {
     items : Array
