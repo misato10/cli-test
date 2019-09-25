@@ -1,12 +1,12 @@
 <template>
   <div class="box">
-    <a href="#">
-    　<figure>
+    <router-link :to="'/item/' + itemId">
+    <figure>
         <img :src="image_src" alt="">
       </figure>
       <p class="name">{{ itemName }}</p>
-      <p class="price">￥{{ itemPrice }}</p>
-    </a>
+      <p class="price">&yen;{{ itemPrice }}</p>
+    </router-link>
   </div>
 </template>
 
@@ -18,7 +18,8 @@ export default {
     item: Array,
     itemName: String,
     itemPrice: Number,
-    itemImg: String
+    itemImg: String,
+    itemId: Number,
   },
   data () {
         return {

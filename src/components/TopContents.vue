@@ -2,6 +2,18 @@
   <div class="contents">
     <p>TOPのコンテンツ</p>
     <AllItem :items="items" />
+    <router-link 
+      tag="button" 
+      to="/category/Male"
+      class="btn">MEN</router-link>
+    <router-link 
+      tag="button" 
+      to="/category/Female"
+      class="btn">WOMAN</router-link>
+    <router-link 
+      tag="button" 
+      to="/category/Children"
+      class="btn">KIDS</router-link>
     <NewItem :items="items" />
   </div>
 </template>
@@ -16,7 +28,7 @@ export default {
     NewItem
   },
   props: {
-    items : Array
+    items : Array,
   }
 }
 </script>

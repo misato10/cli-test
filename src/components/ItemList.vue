@@ -1,6 +1,6 @@
 <template>
   <div class="itemList">
-    <ItemBox :items="items" v-for="item in items" :itemName="item.item_name" :itemPrice="item.item_price" :itemImg="item.item_img" />
+    <ItemBox :items="items" v-for="item in items" :itemName="item.item_name" :itemPrice="item.item_price" :itemImg="item.item_img" :itemId="item.id" />
   </div>
 </template>
 
