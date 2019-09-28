@@ -24,6 +24,10 @@ export default {
 .box {
   width: 22%;
   margin: 0 1.5% 40px;
+  @media (max-width: 750px) {
+    width: 46%;
+    margin: 0 2% 40px;  
+  }
   figure {
     img {
       width: 100%;
