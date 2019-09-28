@@ -1,19 +1,19 @@
 <template>
     <div>
-        <h1>ALL</h1>
-        <ItemList :items="items" />
-
+        <h1>{{ featureName }}</h1>
+        <ItemList02 :items="items"  :featureName="featureName" />
     </div>
 </template>
 
 <script>
-import ItemList from './ItemList.vue';
+import ItemList02 from './ItemList02.vue';
 export default {
   components: {
-    ItemList
+    ItemList02
   },
   props: {
-    items : Array
+    items : Array,
+    featureName: String
   }
 }
 </script>

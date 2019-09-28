@@ -29,15 +29,23 @@ export default {
 }
 </script>
 
-<style>
+<style lang='scss' scoped>
 #wrapper {
   font-size:1.4rem;
   color: #222;
   line-height:1.6;
 }
 .container {
-  max-width: 980px;
+  max-width: 1280px;
   margin: auto;
-  padding: 80px 0;
+  padding: 120px 0 80px;
+  @media (max-width: 1280px) {
+    padding-left:30px;
+    padding-right:30px;
+  }
+  @media (max-width: 750px) {
+    padding-left:20px;
+    padding-right:20px;
+  }
 }
 </style>

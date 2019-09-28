@@ -5,88 +5,97 @@
       "item_img": "images/items/img_dammy.jpg",
       "item_price":1490,
       "item_date":"2019-08-20",
-      "item_gender":"Female",
+      "item_gender":"woman",
       "item_picup": false
   },
   {
       "id":"2",
       "item_name":"フラワープリントワンピース",
       "item_img": "images/items/img_dammy.jpg",
-      "item_price":2990,
+      "item_price": 2990,
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_date":"2019-08-21",
-      "item_gender":"Female",
+      "item_gender":"woman",
       "item_picup": true
   },
   {
       "id":"3",
       "item_name":"デニムジャケット",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":3990,
       "item_date":"2019-08-22",
-      "item_gender":"Male",
+      "item_gender":"man",
       "item_picup": false
   },
   {
       "id":"4",
       "item_name":"ビックT",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":1490,
       "item_date":"2019-08-23",
-      "item_gender":"Male",
+      "item_gender":"man",
       "item_picup": true
   },
   {
       "id":"5",
       "item_name":"サロペット",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":1990,
       "item_date":"2019-08-24",
-      "item_gender":"Children",
+      "item_gender":"kids",
       "item_picup": false
   },
   {
       "id":"6",
       "item_name":"バックプリントワンピース",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":1690,
       "item_date":"2019-08-25",
-      "item_gender":"Children",
+      "item_gender":"kids",
       "item_picup": true
   },
   {
       "id":"7",
       "item_name":"ネックセーター",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":1690,
       "item_date":"2019-08-25",
-      "item_gender":"Female",
+      "item_gender":"woman",
       "item_picup": true
   },
   {
       "id":"8",
       "item_name":"ショルダーロゴT",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":990,
       "item_date":"2019-08-27",
-      "item_gender":"Children",
+      "item_gender":"kids",
       "item_picup": false
   },
   {
       "id":"9",
       "item_name":"クルーネックT",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":1490,
       "item_date":"2019-08-27",
-      "item_gender":"Male",
+      "item_gender":"man",
       "item_picup": true
   },
   {
       "id":"10",
       "item_name":"2WAYベスト",
       "item_img": "images/items/img_dammy.jpg",
+      "item_description": "テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。",
       "item_price":2990,
       "item_date":"2019-08-28",
-      "item_gender":"Female",
+      "item_gender":"woman",
       "item_picup": true
   }
 ]
