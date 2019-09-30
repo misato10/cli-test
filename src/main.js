@@ -13,6 +13,9 @@ const router = new VueRouter({
 
 Vue.config.productionTip = false
 
+Vue.filter('priceFilter', function(val){
+  return val.toLocaleString();
+});
 
 new Vue({
   el: '#app',

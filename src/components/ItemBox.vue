@@ -2,10 +2,10 @@
   <div class="box">
     <router-link :to="'/item/' + item.id">
     <figure>
-    　<img :src="require('@/assets/'+ item.item_img)" alt="">
+    <img :src="require('@/assets/'+ item.item_img)" alt="">
     </figure>
     <p class="name">{{ item.item_name }}</p>
-    <p class="price"><b>￥{{ item.item_price }}</b> +税</p>
+    <p class="price"><b>&yen;{{ item.item_price | priceFilter }}</b> +税</p>
     </router-link>
   </div>
 </template>

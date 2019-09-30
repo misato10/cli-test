@@ -5,7 +5,7 @@
          </div>
          <div class="info">
            <h1 class="itemName">{{ item[0].item_name }}</h1>
-           <p class="itemPrice"><b>¥{{ item[0].item_price }}</b>+税</p>
+           <p class="itemPrice"><b>&yen;{{ item[0].item_price | priceFilter  }}</b>+税</p>
            <h2>商品説明</h2>
            <p class="itemDescription">{{ item[0].item_description }}</p>
            <button class="btn">カートに入れる</button>

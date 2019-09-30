@@ -2,7 +2,9 @@
     <div id="wrapper">
         <Header />
         <div class="container">
-        <router-view :items="items"></router-view>
+        <transition name="fade">
+          <router-view :items="items":key="$route.fullPath"></router-view>
+        </transition>
         </div>
     </div>
 </template>
@@ -47,5 +49,11 @@ export default {
     padding-left:20px;
     padding-right:20px;
   }
+}
+.fade-enter-active {
+  transition: all .8s 0s ease;
+}
+.fade-enter {
+  transform: translate(-100px, 0);
 }
 </style>
