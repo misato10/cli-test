@@ -26,6 +26,7 @@ header {
   width: 100%;
   background: #fff;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  z-index: 999;
   .inner {
     max-width: 1280px;
     height: 70px;
